@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Handling errors and exceptions in PHP
 
 
@@ -74,3 +75,7 @@ For any contribution, please follow these steps:
 3. Make your changes and send them with `git push -u origin main`
 
 You will be informed of the rest.
+=======
+# Errors.php
+Handling errors and exceptions in PHP
+>>>>>>> e282de485db077f986f555d5444a6af625673511
