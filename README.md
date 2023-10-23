@@ -1,81 +1,89 @@
-<<<<<<< HEAD
-# Handling errors and exceptions in PHP
+<div align="center">
 
+[![sikessem-logo]][sikessem-link]
 
-## Installation
+<br/>
 
-Use Composer to install the library with this command:
+[![php-icon]][php-link]
+[![packagist-version-icon]][packagist-version-link]
+[![packagist-download-icon]][packagist-download-link]
+[![license-icon]][license-link]
+[![actions-icon]][actions-link]
+[![pr-icon]][pr-link]
+[![twitter-icon]][twitter-link]
 
-`composer require sikessem/errors`
+</div>
 
-Or [click here to download it directly in ZIP format ](https://github.com/SIKessEm/Errors.php/archive/refs/heads/main.zip)
+[sikessem-logo]: https://github.com/sikessem/art/blob/HEAD/images/sikessem.svg
+[sikessem-link]: https://sikessem.github.io "Sikessem"
 
+[php-icon]: https://img.shields.io/badge/PHP-ccc.svg?style=flat&logo=php
+[php-link]: https://github.com/sikessem/errors/search?l=php "PHP code"
 
-## Usage
+[packagist-version-icon]: https://img.shields.io/packagist/v/sikessem/errors
+[packagist-version-link]: https://packagist.org/packages/sikessem/errors "Errors Releases"
 
-If you are using Composer, include the Composer autoload file.
-Otherwise, you can use the example below in all cases:
+[packagist-download-icon]: https://img.shields.io/packagist/dt/sikessem/errors
+[packagist-download-link]: https://packagist.org/packages/sikessem/errors "Errors Downloads"
 
-```php
-<?php
+[actions-icon]: https://github.com/sikessem/errors/workflows/CI/badge.svg
+[actions-link]: https://github.com/sikessem/errors/actions "Errors status"
 
-//...
+[pr-icon]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?color=brightgreen
+[pr-link]: https://sikessem.github.io/contributions "PRs welcome!"
 
+[twitter-icon]: https://img.shields.io/twitter/follow/sikessem.svg?label=@sikessem_tweets
+[twitter-link]: https://twitter.com/intent/follow?screen_name=sikessem_tweets "Ping Sikessem"
 
-use SIKessEm\Errors\{
-  Catcher,
-  Thrower
-};
+[license-icon]: https://img.shields.io/badge/license-MIT-blue.svg
+[license-link]: https://github.com/sikessem/errors/blob/HEAD/LICENSE "Errors License"
+[conduct-link]: https://sikessem.github.io/code-of-conduct "Sikessem's Code of Conduct"
+[discuss-link]: https://github.com/orgs/sikessem/discussions "Sikessem's GitHub discussions"
+[docs-link]: https://sikessem.github.io/packages/errors "Errors Documentation"
 
+***
 
-$catcher = new Catcher(function($e) {
-  echo "<p>{$e->getMessage()}</p>";
-  exit(1);
-});
+# PHP Error/Exception Handler
 
-$thrower = new Thrower($catcher);
+Allows you to easily create and throw PHP exceptions.
 
+[Read the documentation to learn more][docs-link].
 
-try {
-  1/0;
-} catch (\Throwable $e) {
-  $thrower->throw($e);
-}
+## 📖 Documentation
 
+The full documentation for the Sikessem Errors can be found [here][docs-link].
 
-//...
-```
+## 👏 Contribution
 
+The main purpose of this repository is to continue evolving Sikessem. We want to make contributing to this project as easy and transparent as possible, and we are grateful to the community for contributing bug fixes and improvements. Read below to learn how you can take part in improving Sikessem.
 
-## Requirements
+### [👷 Code of Conduct][conduct-link]
 
-PHP 8.0.0 or above (at least 8.0.7 recommended to avoid potential bugs)
+Sikessem has adopted a Code of Conduct that we expect project participants to adhere to.
+Please read the [full text][conduct-link] so that you can understand what actions will and will not be tolerated.
 
+### 👥 [Contributing Guide][pr-link]
 
-## Author
+Read our [**Contributing Guide**][pr-link] to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to Sikessem.
 
-SIGUI Kessé Emmanuel | [GitHub](https://github.com/SIKessEm) | [npm](https://npmjs.org/~sikessem) | [Twitter](https://twitter.com/SIKessEm_tweets) | [sikessem@omninf.com](mailto:sikessem@omninf.com) | [sikessem.omninf.com](https://sikessem.omninf.com)
+### 🔒️ Good First Issues
 
+We have a list of [good first issues][gfi] that contain bugs which have a relatively limited scope. This is a great place to get started, gain experience, and get familiar with our contribution process.
 
-## Security Reports
+[gfi]: https://github.com/sikessem/errors/labels/good%20first%20issue
 
-Please send any sensitive issue to [sikessem@omninf.com](mailto:sikessem@omninf.com). Thanks!
+### 💬 Discussions
 
+Larger discussions and proposals are discussed in [**Sikessem's GitHub discussions**][discuss-link].
 
-## License
-Errors is licensed under the Apache 2.0 License - see the [LICENSE](./LICENSE) file for details.
+## 🔐 Security Reports
 
+If you discover a security vulnerability within [any of Sikessem's projects][sikessem-link], please email [SIGUI Kessé Emmanuel](https://sigui.ci) at [contact@sigui.ci](mailto:contact@sigui.ci). All security vulnerabilities will be promptly addressed.
 
-## Contribution
+## 📄 License
 
-For any contribution, please follow these steps:
+The Sikessem Errors is open-sourced software licensed under the  [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE][license-link] file for details.
 
-1. Clone the repository with `git clone https://github.com/SIKessEm/Errors.php` or `git remote add origin https://github.com/SIKessEm/Errors.php` then `git branch -M main`
-2. Create a new branch. Example: `git checkout -b my_contribution`
-3. Make your changes and send them with `git push -u origin main`
+***
 
-You will be informed of the rest.
-=======
-# Errors.php
-Handling errors and exceptions in PHP
->>>>>>> e282de485db077f986f555d5444a6af625673511
+<div align="center"><sub>Made with ❤︎ by <a href="https://twitter.com/intent/follow?screen_name=siguici" style="content:url(https://img.shields.io/twitter/follow/siguici.svg?label=@siguici);margin-bottom:-6px">@siguici</a>.</sub></div>
