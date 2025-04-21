@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sikessem\Errors\Tests;
+namespace Sikessem\Exceptor\Tests;
 
 use BadFunctionCallException;
 use BadMethodCallException;
@@ -15,19 +15,19 @@ use OutOfRangeException;
 use OverflowException;
 use RangeException;
 use RuntimeException;
-use Sikessem\Errors\BadFunctionCallException as SikessemBadFunctionCallException;
-use Sikessem\Errors\BadMethodCallException as SikessemBadMethodCallException;
-use Sikessem\Errors\DomainException as SikessemDomainException;
-use Sikessem\Errors\InvalidArgumentException as SikessemInvalidArgumentException;
-use Sikessem\Errors\LengthException as SikessemLengthException;
-use Sikessem\Errors\LogicException as SikessemLogicException;
-use Sikessem\Errors\OutOfBoundsException as SikessemOutOfBoundsException;
-use Sikessem\Errors\OutOfRangeException as SikessemOutOfRangeException;
-use Sikessem\Errors\OverflowException as SikessemOverflowException;
-use Sikessem\Errors\RangeException as SikessemRangeException;
-use Sikessem\Errors\RuntimeException as SikessemRuntimeException;
-use Sikessem\Errors\UnderflowException as SikessemUnderflowException;
-use Sikessem\Errors\UnexpectedValueException as SikessemUnexpectedValueException;
+use Sikessem\Exceptor\BadFunctionCallException as SikessemBadFunctionCallException;
+use Sikessem\Exceptor\BadMethodCallException as SikessemBadMethodCallException;
+use Sikessem\Exceptor\DomainException as SikessemDomainException;
+use Sikessem\Exceptor\InvalidArgumentException as SikessemInvalidArgumentException;
+use Sikessem\Exceptor\LengthException as SikessemLengthException;
+use Sikessem\Exceptor\LogicException as SikessemLogicException;
+use Sikessem\Exceptor\OutOfBoundsException as SikessemOutOfBoundsException;
+use Sikessem\Exceptor\OutOfRangeException as SikessemOutOfRangeException;
+use Sikessem\Exceptor\OverflowException as SikessemOverflowException;
+use Sikessem\Exceptor\RangeException as SikessemRangeException;
+use Sikessem\Exceptor\RuntimeException as SikessemRuntimeException;
+use Sikessem\Exceptor\UnderflowException as SikessemUnderflowException;
+use Sikessem\Exceptor\UnexpectedValueException as SikessemUnexpectedValueException;
 use UnderflowException;
 use UnexpectedValueException;
 

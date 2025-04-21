@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sikessem\Errors\Concerns;
+namespace Sikessem\Exceptor\Concerns;
 
 use Throwable;
 

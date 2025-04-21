@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Sikessem\Errors;
+namespace Sikessem\Exceptor;
 
-use Sikessem\Errors\Contracts\IsException;
+use Sikessem\Exceptor\Contracts\IsException;
 use UnexpectedValueException as BaseException;
 
 class UnexpectedValueException extends BaseException implements IsException

@@ -18,16 +18,16 @@
 [sikessem-link]: https://sikessem.github.io "Sikessem"
 
 [php-icon]: https://img.shields.io/badge/PHP-ccc.svg?style=flat&logo=php
-[php-link]: https://github.com/sikessem/errors/search?l=php "PHP code"
+[php-link]: https://github.com/sikessem/exceptor/search?l=php "PHP code"
 
-[packagist-version-icon]: https://img.shields.io/packagist/v/sikessem/errors
-[packagist-version-link]: https://packagist.org/packages/sikessem/errors "Errors Releases"
+[packagist-version-icon]: https://img.shields.io/packagist/v/sikessem/exceptor
+[packagist-version-link]: https://packagist.org/packages/sikessem/exceptor "Exceptor Releases"
 
-[packagist-download-icon]: https://img.shields.io/packagist/dt/sikessem/errors
-[packagist-download-link]: https://packagist.org/packages/sikessem/errors "Errors Downloads"
+[packagist-download-icon]: https://img.shields.io/packagist/dt/sikessem/exceptor
+[packagist-download-link]: https://packagist.org/packages/sikessem/exceptor "Exceptor Downloads"
 
-[actions-icon]: https://github.com/sikessem/errors/workflows/CI/badge.svg
-[actions-link]: https://github.com/sikessem/errors/actions "Errors status"
+[actions-icon]: https://github.com/sikessem/exceptor/workflows/CI/badge.svg
+[actions-link]: https://github.com/sikessem/exceptor/actions "Exceptor status"
 
 [pr-icon]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?color=brightgreen
 [pr-link]: https://sikessem.github.io/contributions "PRs welcome!"
@@ -36,10 +36,10 @@
 [twitter-link]: https://twitter.com/intent/follow?screen_name=sikessem_tweets "Ping Sikessem"
 
 [license-icon]: https://img.shields.io/badge/license-MIT-blue.svg
-[license-link]: https://github.com/sikessem/errors/blob/HEAD/LICENSE "Errors License"
+[license-link]: https://github.com/sikessem/exceptor/blob/HEAD/LICENSE "Exceptor License"
 [conduct-link]: https://sikessem.github.io/code-of-conduct "Sikessem's Code of Conduct"
 [discuss-link]: https://github.com/orgs/sikessem/discussions "Sikessem's GitHub discussions"
-[docs-link]: https://sikessem.github.io/packages/errors "Errors Documentation"
+[docs-link]: https://sikessem.github.io/packages/exceptor "Exceptor Documentation"
 
 ***
 
@@ -51,7 +51,7 @@ Allows you to easily create and throw PHP exceptions.
 
 ## 📖 Documentation
 
-The full documentation for the Sikessem Errors can be found [here][docs-link].
+The full documentation for the Sikessem Exceptor can be found [here][docs-link].
 
 ## 👏 Contribution
 
@@ -70,7 +70,7 @@ Read our [**Contributing Guide**][pr-link] to learn about our development proces
 
 We have a list of [good first issues][gfi] that contain bugs which have a relatively limited scope. This is a great place to get started, gain experience, and get familiar with our contribution process.
 
-[gfi]: https://github.com/sikessem/errors/labels/good%20first%20issue
+[gfi]: https://github.com/sikessem/exceptor/labels/good%20first%20issue
 
 ### 💬 Discussions
 
@@ -82,7 +82,7 @@ If you discover a security vulnerability within [any of Sikessem's projects][sik
 
 ## 📄 License
 
-The Sikessem Errors is open-sourced software licensed under the  [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE][license-link] file for details.
+The Sikessem Exceptor is open-sourced software licensed under the  [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE][license-link] file for details.
 
 ***
 

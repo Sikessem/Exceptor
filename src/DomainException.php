@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Sikessem\Errors;
+namespace Sikessem\Exceptor;
 
 use DomainException as BaseException;
-use Sikessem\Errors\Contracts\IsException;
+use Sikessem\Exceptor\Contracts\IsException;
 
 class DomainException extends BaseException implements IsException
 {

@@ -7,15 +7,15 @@ test('globals')
     ->not->toBeUsed();
 
 test('classes')
-    ->expect('Sikessem\Errors')
+    ->expect('Sikessem\Exceptor')
     ->toUseStrictTypes();
 
 test('contracts')
-    ->expect('Sikessem\Errors\Contracts')
+    ->expect('Sikessem\Exceptor\Contracts')
     ->interfaces()
-    ->toOnlyBeUsedIn('Sikessem\Errors', 'Sikessem\Errors\Contracts');
+    ->toOnlyBeUsedIn('Sikessem\Exceptor', 'Sikessem\Exceptor\Contracts');
 
 test('concerns')
-    ->expect('Sikessem\Errors\Concerns')
+    ->expect('Sikessem\Exceptor\Concerns')
     ->traits()
-    ->toOnlyBeUsedIn('Sikessem\Errors', 'Sikessem\Errors\Concerns');
+    ->toOnlyBeUsedIn('Sikessem\Exceptor', 'Sikessem\Exceptor\Concerns');

@@ -1,10 +1,12 @@
 {
-    "name": "sikessem/errors",
+    "name": "sikessem/exceptor",
     "description": "Makes PHP exception handling easier.",
-    "homepage": "https://sikessem.github.io/packages/errors",
+    "homepage": "https://sikessem.github.io/packages/exceptor",
     "license": "MIT",
     "keywords": [
-        "errors",
+        "error",
+        "exception",
+        "exceptor",
         "php",
         "sikessem"
     ],
@@ -16,8 +18,8 @@
         }
     ],
     "support": {
-        "source": "https://github.com/sikessem/errors",
-        "issues": "https://github.com/sikessem/errors/issues",
+        "source": "https://github.com/sikessem/exceptor",
+        "issues": "https://github.com/sikessem/exceptor/issues",
         "chat": "https://github.com/orgs/sikessem/discussions"
     },
     "require": {
@@ -29,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Sikessem\\Errors\\": "src/"
+            "Sikessem\\Exceptor\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Sikessem\\Errors\\Tests\\": "tests/"
+            "Sikessem\\Exceptor\\Tests\\": "tests/"
         }
     },
     "scripts": {
