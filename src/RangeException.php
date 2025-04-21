@@ -6,6 +6,9 @@ namespace Sikessem\Exceptor;
 
 use RangeException as BaseException;
 
+/**
+ * @api
+ */
 class RangeException extends BaseException implements ExceptionInterface
 {
     use ExceptionTrait;

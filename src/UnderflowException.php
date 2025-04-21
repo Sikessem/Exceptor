@@ -6,6 +6,9 @@ namespace Sikessem\Exceptor;
 
 use UnderflowException as BaseException;
 
+/**
+ * @api
+ */
 class UnderflowException extends BaseException implements ExceptionInterface
 {
     use ExceptionTrait;

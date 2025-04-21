@@ -6,6 +6,9 @@ namespace Sikessem\Exceptor;
 
 use OutOfBoundsException as BaseException;
 
+/**
+ * @api
+ */
 class OutOfBoundsException extends BaseException implements ExceptionInterface
 {
     use ExceptionTrait;

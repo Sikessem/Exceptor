@@ -6,6 +6,9 @@ namespace Sikessem\Exceptor;
 
 use RuntimeException as BaseException;
 
+/**
+ * @api
+ */
 class RuntimeException extends BaseException implements ExceptionInterface
 {
     use ExceptionTrait;

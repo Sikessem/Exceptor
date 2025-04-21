@@ -6,11 +6,14 @@ namespace Sikessem\Exceptor;
 
 use Throwable;
 
+/**
+ * @api
+ */
 trait ExceptionTrait
 {
-    abstract public function __construct(string $message = '', int $code = 0, ?Throwable $previous = null);
-
     /**
+     * @api
+     *
      * @param  array<string|int|float>  $arguments
      */
     public static function new(string $message = '', array $arguments = [], int $code = 0, ?Throwable $previous = null): self

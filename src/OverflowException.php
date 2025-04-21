@@ -6,6 +6,9 @@ namespace Sikessem\Exceptor;
 
 use OverflowException as BaseException;
 
+/**
+ * @api
+ */
 class OverflowException extends BaseException implements ExceptionInterface
 {
     use ExceptionTrait;
