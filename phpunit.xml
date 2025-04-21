@@ -4,13 +4,10 @@
     <testsuite name="Test Suite">
       <directory suffix="Test.php">./tests</directory>
     </testsuite>
-    <testsuite name="Feature Test Suite">
-      <directory suffix="Test.php">./tests/Feat</directory>
-    </testsuite>
   </testsuites>
   <coverage/>
   <php>
-    <env name="LIB_ENV" value="ci"/>
+    <env name="PHP_ENV" value="test"/>
   </php>
   <source>
     <include>
