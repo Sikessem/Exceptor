@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sikessem\Exceptor\Tests;
+namespace Sikessem\Exceptor\Tests\Feat;
 
 use BadFunctionCallException;
 use BadMethodCallException;
@@ -31,8 +31,8 @@ use Sikessem\Exceptor\UnexpectedValueException as SikessemUnexpectedValueExcepti
 use UnderflowException;
 use UnexpectedValueException;
 
-test('All Sikessem exceptions inherit PHP exceptions', function (string $phpException, string $sikessemException) {
-    $exception = $sikessemException::with('Test %s Error.', [$phpException]);
+test('All Sikessem exceptions inherit PHP exceptions', function (string $phpException, string $skeException) {
+    $exception = $skeException::new('Test %s Error.', [$phpException]);
     expect($exception)->toBeInstanceOf($phpException);
     expect(fn () => throw $exception)->toThrow($phpException);
 })->with([

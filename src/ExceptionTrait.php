@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Sikessem\Exceptor\Concerns;
+namespace Sikessem\Exceptor;
 
 use Throwable;
 
-trait CanCreateException
+trait ExceptionTrait
 {
-    abstract public function __construct(string $message = '', int $code = 0, Throwable $previous = null);
+    abstract public function __construct(string $message = '', int $code = 0, ?Throwable $previous = null);
 
     /**
      * @param  array<string|int|float>  $arguments
      */
-    public static function with(string $message = '', array $arguments = [], int $code = 0, Throwable $previous = null): self
+    public static function new(string $message = '', array $arguments = [], int $code = 0, ?Throwable $previous = null): self
     {
         if ($arguments !== []) {
             $message = sprintf($message, ...$arguments);

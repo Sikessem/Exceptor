@@ -9,13 +9,3 @@ test('globals')
 test('classes')
     ->expect('Sikessem\Exceptor')
     ->toUseStrictTypes();
-
-test('contracts')
-    ->expect('Sikessem\Exceptor\Contracts')
-    ->interfaces()
-    ->toOnlyBeUsedIn('Sikessem\Exceptor', 'Sikessem\Exceptor\Contracts');
-
-test('concerns')
-    ->expect('Sikessem\Exceptor\Concerns')
-    ->traits()
-    ->toOnlyBeUsedIn('Sikessem\Exceptor', 'Sikessem\Exceptor\Concerns');

@@ -5,9 +5,8 @@ declare(strict_types=1);
 namespace Sikessem\Exceptor;
 
 use DomainException as BaseException;
-use Sikessem\Exceptor\Contracts\IsException;
 
-class DomainException extends BaseException implements IsException
+class DomainException extends BaseException implements ExceptionInterface
 {
-    use Concerns\CanCreateException;
+    use ExceptionTrait;
 }
